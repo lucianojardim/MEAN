@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="label" value="MongoDB32.simpleApplication" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:52032" />
+            </list>
+          </option>
+          <option name="userDatabase" value="simpleApplication" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="MongoDB32.test" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:52032" />
+            </list>
+          </option>
+          <option name="userDatabase" value="test" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="MongoDB32.system" />
+          <option name="serverUrls">
+            <list>
+              <option value="localhost:52032" />
+            </list>
+          </option>
+          <option name="userDatabase" value="system" />
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPath" value="&quot;C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe&quot;" />
+  </component>
+</project>
